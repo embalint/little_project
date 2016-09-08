@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>NWTIS konfiguracija</comment>
+<entry key="server.database">jdbc:derby://localhost:1527/</entry>
+<entry key="admin.username">embalint</entry>
+<entry key="admin.password">embalint_nwtis</entry>
+<entry key="admin.database">nwtis_embalint_bp_1</entry>
+<entry key="user.username">embalint</entry>
+<entry key="user.password">embalint_nwtis</entry>
+<entry key="user.database">nwtis_embalint_bp_1</entry>
+<entry key="driver.database.odbc">sun.jdbc.odbc.JdbcOdbcDriver</entry>
+<entry key="driver.database.mysql">com.mysql.jdbc.Driver</entry>
+<entry key="driver.database.derby">org.apache.derby.jdbc.ClientDriver</entry>
+<entry key="driver.database.postgresql">org.postgresql.Driver</entry>
+<entry key="dretva.interval">100</entry>
+<entry key="user.kvota.kategorija">1</entry>
+<entry key="user.vrijeme">60</entry>
+<entry key="opeanwather.apiKey">fba4d05bb7a3894dced60a7065281527</entry>
+<entry key="server">localhost</entry>
+<entry key="port">8800</entry>
+<entry key="mail.server">127.0.0.1</entry>
+<entry key="mail.port">-1</entry> <!-- -1 oznacava defaultni port -->
+<entry key="mail.posiljatelj">servis@nwtis.nastava.foi.hr</entry>
+<entry key="mail.posiljatelj.lozinka">123456</entry>
+<entry key="mail.primatelj">embalint@nwtis.nastava.foi.hr</entry>
+<entry key="mail.poruka.predmet">NWTiS poruka</entry>
+<entry key="paginacija">10</entry>
+</properties>
